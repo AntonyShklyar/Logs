@@ -6,5 +6,6 @@ Script algorithm:
 5. search for the data specified in the file with modification dates - the day the problem was reproduced and the previous day. In the absence of files - the formation of a notification, a proposal to try again;
 6. checking the availability of the required free disk space (requires 10 GB - the value can be changed). In case of absence - the formation of a notification and the completion of work;
 7. checking for the existence of a directory where the archive will be placed. If not, create a directory;
-8. archiving files / directories with a maximum compression level for the zip format - 9;
-9. formation of notification about the name and location of the archive.
+8. archiving files/directories with a maximum compression level for the zip format - 9;
+9. сhecking the success of the archive creation by reading of contents;
+10. formation of notification about the name and location of the archive.
