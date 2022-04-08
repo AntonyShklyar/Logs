@@ -1,0 +1,10 @@
+Script algorithm:
+1. when starting the script, a file with a list of directories/files to be built is passed as an argument, as well as list of directories/files to be excluded. In the file, these lists are separated by the line '---';
+2. in case of launch without the sudo command, a notification will be generated about the need to use root rights. Completion of the program;
+3. prompting the user to enter the date the problem occurred in YYYY-MM-DD format;
+4. checking the correctness of the date input using a regular expression. In case of incorrect input - the appearance of a corresponding notification, an offer to try again;
+5. search for the data specified in the file with modification dates - the day the problem was reproduced and the previous day. In the absence of files - the formation of a notification, a proposal to try again;
+6. checking the availability of the required free disk space (requires 10 GB - the value can be changed). In case of absence - the formation of a notification and the completion of work;
+7. checking for the existence of a directory where the archive will be placed. If not, create a directory;
+8. archiving files / directories with a maximum compression level for the zip format - 9;
+9. formation of notification about the name and location of the archive.
