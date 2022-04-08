@@ -1,0 +1,10 @@
+Data:
+As input, the script accepts from the user the date of the problem in YYYY-MM-DD format.
+The output is an archive of log files in .zip format with files from the date the problem occurred and the day before.
+
+Attached files:
+collectlog.sh - script for collecting logs
+files.txt - a list of directories/files to collect, as well as a list of exclusions.
+
+Script run command:
+sudo /bin/bash collectlog.sh files.txt
