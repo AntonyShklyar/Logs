@@ -7,5 +7,5 @@ Script algorithm:
 6. checking the availability of the required free disk space (requires 10 GB - the value can be changed). In case of absence - the formation of a notification and the completion of work;
 7. checking for the existence of a directory where the archive will be placed. If not, create a directory;
 8. archiving files/directories with a maximum compression level for the zip format - 9;
-9. сhecking the success of the archive creation by reading of contents;
+9. сhecking the success of the archive creation by reading of contents. An incorrectly created archive is deleted. An attempt is made to repeat the collection of logs;
 10. formation of notification about the name and location of the archive.
